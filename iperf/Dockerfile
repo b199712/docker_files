@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER Xin
+MAINTAINER Xin "b199712@gmail.com"
 LABEL description="for iperf test"
 RUN yum -y update \
     && yum -y install openssh-server \
